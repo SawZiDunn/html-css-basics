@@ -1,0 +1,92 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    /* 1rem = 16px */
+    font-size: 16px;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+main {
+    margin: 20px auto;
+    padding: 0px 8px;
+    border: 2px solid black;
+    width: 270px;
+}
+
+.heading h1 {
+    text-align: center;
+    font-size: 35px;
+    font-weight: 300px;
+    border-bottom: 1px solid rgb(154, 151, 151);
+}
+
+.bold-text {
+    font-weight: 800;
+}
+
+.divider-large {
+    margin-top: 3px;
+    height: 8px;
+    background-color: black;
+}
+
+.divider-medium {
+    margin-top: 3px;
+    height: 5px;
+    background-color: black;
+}
+
+.calories-info {
+    display: flex;
+    justify-content: space-between;
+    /* vertical align */
+    align-items: flex-end;
+}
+
+.large-text {
+    font-size: 2rem;
+}
+
+.small-text {
+    font-size: 0.875rem;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-bottom: 1px solid rgb(163, 162, 162);
+    font-size: 15px;
+    margin: 4px 0;
+}
+
+.no-border-bottom {
+    border: 0;
+}
+.start {
+    justify-content: start;
+}
+.end {
+    justify-content: end;
+}
+
+.single-indent {
+    margin-left: 10px;
+}
+
+.double-indent {
+    margin-left: 20px;
+}
+
+.footer {
+    margin-top: 5px;
+    line-height: 15px;
+    font-size: 10px;
+}
