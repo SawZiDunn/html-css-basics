@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+    </head>
+    <style>
+        body {
+            height: 3000px;
+            padding-top: 70px;
+            padding-left: 200px;
+        }
+
+        .header {
+            background-color: black;
+            height: 80px;
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+
+            z-index: 1;
+        }
+
+        .sidebar {
+            background-color: aliceblue;
+            position: fixed;
+            top: 80px;
+            left: 0;
+            bottom: 0;
+            width: 200px;
+            height: 100%;
+            float: left;
+        }
+        .div {
+            width: 200px;
+            height: 200px;
+        }
+
+        .div {
+            background: skyblue;
+            position: relative;
+            z-index: 0;
+        }
+
+        .time {
+            background-color: black;
+            color: white;
+            position: absolute;
+            bottom: 5px;
+            right: 5px;
+        }
+    </style>
+    <body>
+        <div class="header">Header</div>
+
+        <div class="sidebar">sidebar</div>
+
+        <div class="div">
+            <p>div1</p>
+            <div class="time">5:00</div>
+        </div>
+
+        <div class="div">
+            <p>div2</p>
+            <div class="time">5:00</div>
+        </div>
+
+        <div class="div">
+            <p>div3</p>
+            <div class="time">5:00</div>
+        </div>
+    </body>
+</html>
